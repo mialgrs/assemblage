@@ -1,0 +1,11 @@
+name : assembl
+channels :
+	- defaults
+  - conda-forge
+  - pip
+dependencies :
+    - pip3 : 
+      - networkx
+      - pytest
+      - pylint
+      - pytest-cov
